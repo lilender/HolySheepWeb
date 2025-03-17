@@ -1,0 +1,75 @@
+.schoolbell-regular {
+    font-family: "Schoolbell", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.schoolbell-bold {
+    font-family: "Schoolbell", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*
+#E6AB6A, #F2DD92, #F7F0D4, #595D5F, #A9A9A9
+*/
+
+.bg-a {
+    background-color: #3DA17F;
+}
+.bg-b {
+    background-color: #00754C;
+}
+.bg-c {
+    background-color: #B5D449;
+}
+.bg-d {
+    background-color: #F96D00;
+}
+.bg-e {
+    background-color: #F3C100;
+}
+.bg-f {
+    background-color: #E6AB6A;
+}
+.bg-g {
+    background-color: #F2DD92;
+}
+.bg-h {
+    background-color: #F7F0D4;
+}
+.bg-i {
+    background-color: #595D5F;
+}
+.bg-j {
+    background-color: #A9A9A9;
+}
+
+.video-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.video-container > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

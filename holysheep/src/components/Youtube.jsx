@@ -9,7 +9,7 @@ function Youtube() {
     return (
         <Container fluid className="bg-h">
             <Row className="py-5">
-                <Col className='align-self-center'>
+                <Col className='align-self-center text-center'>
                     <h1 className="schoolbell-bold">Watch our new trailer!</h1>
                 </Col>
                 <Col md='8' lg='6' xxl='4' >

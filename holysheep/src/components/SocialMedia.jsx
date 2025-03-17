@@ -23,17 +23,17 @@ function SocialMedia() {
                         }
                         `}
                     </style>
-                    <Button variant='icon'>
-                        <i class="bi bi-youtube"></i>
+                    <Button href='https://www.youtube.com/watch?v=BrsXHgQAojs&t=4302' variant='icon'>
+                        <i className="bi bi-youtube"></i>
                     </Button>
                     <Button variant='icon'>
-                        <i class="bi bi-facebook"></i>
+                        <i className="bi bi-facebook"></i>
                     </Button>
                     <Button variant='icon'>
-                        <i class="bi bi-instagram"></i>
+                        <i className="bi bi-instagram"></i>
                     </Button>
                     <Button variant='icon'>
-                        <i class="bi bi-twitter"></i>
+                        <i className="bi bi-twitter"></i>
                     </Button>
                 </Col>
             </Row>

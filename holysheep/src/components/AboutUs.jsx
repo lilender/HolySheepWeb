@@ -12,6 +12,7 @@ function AboutUs() {
             <NavBar />
             <div className='bg-h py-5 text-center'>
                 <h1 className='lilita-one-regular'>Our Team</h1>
+                <br></br>
                 <Container>
                     <Row>
                         <Col xs={12} xl={6}>

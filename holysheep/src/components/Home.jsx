@@ -7,7 +7,7 @@ import SocialMedia from './SocialMedia';
 
 function Home() {
     return (
-        <>
+        <div>
             <NavBar />
             <MainPic />
             <Youtube />
@@ -18,7 +18,7 @@ function Home() {
             </div>
             <SocialMedia />
             <Footer />
-        </>
+        </div>
 
     )
 }

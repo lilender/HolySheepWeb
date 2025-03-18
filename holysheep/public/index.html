@@ -33,7 +33,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root" data-type="canvas"></div>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -45,4 +45,41 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+    <img id="customCursor" src="img/sheep.png">
+    </img>
+    <style>
+        body {
+            cursor: none;
+        }
+        
+        button, input, textarea, select, [role="button"] {
+          cursor: auto !important;
+        }
+        
+        a {
+            cursor: pointer !important;
+        }
+    
+    
+        #customCursor {
+          position: fixed;
+          pointer-events: none;
+          width: 30px;
+          height: 30px;
+          transform-origin: center;
+          left: 0;
+          top: 0;
+          z-index: 9999;
+          will-change: transform;
+          opacity: 1;
+          transition: opacity 0.2s ease;
+            display: none;
+        }
+    
+        #customCursor.hidden {
+          opacity: 0;
+        }
+    
+    </style>
+  <script src="cursor.js"></script>
 </html>

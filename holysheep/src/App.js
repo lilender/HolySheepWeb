@@ -4,7 +4,7 @@ import AboutUs from './components/AboutUs';
 import Wiki from './components/Wiki';
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/holysheep">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />

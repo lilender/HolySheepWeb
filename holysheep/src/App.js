@@ -7,9 +7,9 @@ function App() {
         <BrowserRouter basename="/holysheep">
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/home" element={<Home />} />
-                <Route path="/about" element={<AboutUs />} />
-                <Route path="/wiki" element={<Wiki />} />
+                <Route path="/home/" element={<Home />} />
+                <Route path="/about/" element={<AboutUs />} />
+                <Route path="/wiki/" element={<Wiki />} />
             </Routes>
         </BrowserRouter>
     );

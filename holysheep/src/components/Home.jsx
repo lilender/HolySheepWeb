@@ -12,9 +12,9 @@ function Home() {
             <MainPic />
             <Youtube />
             <div className="bg-a py-3">
-                <MainInfo order="order-md-last" img="img/test1.jpg" text="Holy Sheep es un juego multijugador en el que dos pastores se enfrentan en un duelo por conseguir la mayor cantidad de ovejas."/>
-                <MainInfo order="order-md-first" img="img/test2.jpg" text="Holy Sheep es un juego multijugador en el que dos pastores se enfrentan en un duelo por conseguir la mayor cantidad de ovejas."/>
-                <MainInfo order="order-md-last" img="img/test3.jpg" text="Holy Sheep es un juego multijugador en el que dos pastores se enfrentan en un duelo por conseguir la mayor cantidad de ovejas."/>
+                <MainInfo order="order-md-last" img="/holysheep/images/render1.jpg" text="Holy Sheep es un juego multijugador en el que dos pastores se enfrentan en un duelo por conseguir la mayor cantidad de ovejas."/>
+                <MainInfo order="order-md-first" img="/holysheep/images/render1.jpg" text="Consigue la mayor cantidad de ovejas antes de que se te acabe el tiempo, y sobrevive con el ultimo y mas preciado recurso de nuestro universo... ¡LAS OVEJAS!"/>
+                <MainInfo order="order-md-last" img="/holysheep/images/render1.jpg" text="¡Ordena tu copia de Holy Sheep hoy y froma parte de la comunidad!"/>
             </div>
             <SocialMedia />
             <Footer />

@@ -24,7 +24,7 @@ function MainPic() {
             <Row>
                 <Col xs='0' md='2' xxl='3'></Col>
                 <Col className='position-relative'>
-                    <Image src="/img/logo.png" alt="HolySheepLogo" fluid/>
+                    <Image src="/holysheep/images/logo.png" alt="HolySheepLogo" fluid/>
                     <Button variant='main' className='position-absolute bottom-0 start-50 translate-middle-x'>Shop Now</Button>
                 </Col>
                 <Col xs='0' md='2' xxl='3'></Col>

@@ -15,7 +15,7 @@ function Youtube() {
                 <Col md='8' lg='6' xxl='4' >
                     <div className="video-container">
                         <ReactPlayer 
-                            url="https://www.youtube.com/watch?v=CwP1pT6aDcM" 
+                            url="https://youtu.be/fXpvB-2qGoE" 
                             width="100%" 
                             height="100%" 
                         />

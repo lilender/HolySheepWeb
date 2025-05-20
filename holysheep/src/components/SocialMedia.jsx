@@ -23,16 +23,16 @@ function SocialMedia() {
                         }
                         `}
                     </style>
-                    <Button href='https://www.youtube.com/watch?v=BrsXHgQAojs&t=4302' variant='icon'>
+                    <Button href='https://youtu.be/fXpvB-2qGoE' variant='icon'>
                         <i className="bi bi-youtube"></i>
                     </Button>
-                    <Button variant='icon'>
+                    <Button href='https://www.facebook.com/profile.php?id=61557188455429' variant='icon'>
                         <i className="bi bi-facebook"></i>
                     </Button>
-                    <Button variant='icon'>
+                    <Button href='https://www.instagram.com/quetzal.games/' variant='icon'>
                         <i className="bi bi-instagram"></i>
                     </Button>
-                    <Button variant='icon'>
+                    <Button href='https://x.com/Quetzal_Games_' variant='icon'>
                         <i className="bi bi-twitter"></i>
                     </Button>
                 </Col>
